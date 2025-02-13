@@ -1,6 +1,7 @@
 Related Topics
 * [App life cycle](https://developer.apple.com/documentation/uikit/app-and-environment)
 * [Scene and Window](https://developer.apple.com/documentation/uikit/scenes)
+* [View life cycle](https://developer.apple.com/documentation/uikit/displaying-and-managing-views-with-a-view-controller)
 
 
 Modifications for Tutorial
