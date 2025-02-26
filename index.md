@@ -1,4 +1,20 @@
-# iOS Learning Journey
+# record
+
+### Data Structure
+* [Big O](./bigo.md)
+* [Recursion]()
+* [Arrays and Strings]()
+* [Hashing](./hashing.md)
+
+
+### Tips
+* [Python]() -> sort, reverse
+a.sort()
+and sorted(a)
+"True" "False"
+* [Algorithms]()
+convert to Set to check unique O(n)
+
 
 ||Topic|Link|
 |-------|---------|---------|
