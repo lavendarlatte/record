@@ -13,3 +13,4 @@ dict is HashMap in Python - uses open addressing.
 
 
 #### Counting
+sliding window is for max and prefix sum hash map is for counting.
