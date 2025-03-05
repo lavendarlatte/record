@@ -23,6 +23,11 @@ sorted(string) returns list
 ans = float("inf")
 
 digit sum: key = sum(map(int,list(str(num))))
+
+magazine_counts = collections.Counter(magazine)
+    ransom_note_counts = collections.Counter(ransomNote)
+
+    set(string)
 ```
 
 dict is HashMap in Python - uses open addressing.
