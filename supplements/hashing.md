@@ -31,7 +31,14 @@ magazine_counts = collections.Counter(magazine)
 ```
 
 dict is HashMap in Python - uses open addressing.
-
+key needs to be immutable.
 
 #### Counting
 sliding window is for max and prefix sum hash map is for counting.
+
+* [Python]() -> sort, reverse
+a.sort()
+and sorted(a)
+"True" "False"
+* [Algorithms]()
+convert to Set to check unique O(n)
