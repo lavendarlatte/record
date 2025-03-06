@@ -7,6 +7,10 @@
 |Set()|O(1)|O(1)|O(1)||
 
 ### Operations
-binary search O(log n)
-sort O(n log n)
+|||
+|-|-|
+|Binary search|O(log n)|
+|Tree|O(n*k), n is number of node k is per node operation|
+|Sort|O(n log n)|
+|Min/Max|O(n)|
 
