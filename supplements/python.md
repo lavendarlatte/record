@@ -13,5 +13,7 @@
 |Map|map(int, list)|
 |Set|set(string)|
 |Counter|collections.Counter(list)|
+|Ternary|val if cond else val2|
+|Range comparison|if low <= root.val <= high:|
 
-
+there is recursion limit? be aware of this for dfs

@@ -5,6 +5,7 @@
 * [Hashing](./supplements/hashing.md)
 * [Trees/Graphs](./supplements/graph.md)
 * [Python](./supplements/python.md)
+sliding window: longest subarray type / number of subarray type O(n)
 
 
 ### iOS
