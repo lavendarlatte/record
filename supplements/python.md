@@ -11,9 +11,11 @@
 |Reverse list|list(reversed(list)) or list.reverse() (in-place)|
 |Join list|''.join(list)|
 |Map|map(int, list)|
-|Set|set(string)|
+|Set|set(string), s.add(a)|
 |Counter|collections.Counter(list)|
 |Ternary|val if cond else val2|
 |Range comparison|if low <= root.val <= high:|
+|Lambda|min(a, b, key = lambda x: abs(target-x))|
+|Inner function|can access variables in outer function|
 
 there is recursion limit? be aware of this for dfs

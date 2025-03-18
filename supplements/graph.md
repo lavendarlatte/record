@@ -44,5 +44,7 @@ while queue:
 O(n) time complexity and O(max node in level) space.
 
 **BST**:
-search, add, remove is O(height)
-inorder traversal is sorted array.
+search, add, remove is O(height).
+Inorder traversal is sorted array.
+
+**Graph**: can be represented with array of edges, adjacency list/matrix, or general matrix where each (row, col) is node. We can use DFS but need to keep "seen" set to avoid infinite cycle.
