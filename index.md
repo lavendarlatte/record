@@ -8,6 +8,10 @@
 * [Python](./supplements/python.md)
 sliding window: longest subarray type / number of subarray type O(n)
 
+### System Design
+Following [system-design-primer](https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-topics-start-here).
+
+* [Scalability](./system/scalability.md)
 
 ### iOS
 * Swift Basics: [100 Days of Swift](https://www.hackingwithswift.com/100) (Day 1-15)
