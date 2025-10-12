@@ -24,3 +24,6 @@ and sorted(a)
 "True" "False"
 * [Algorithms]()
 convert to Set to check unique O(n)
+
+any random access is O(1)
+add, remove, update, find.

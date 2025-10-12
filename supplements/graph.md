@@ -48,3 +48,4 @@ search, add, remove is O(height).
 Inorder traversal is sorted array.
 
 **Graph**: can be represented with array of edges, adjacency list/matrix, or general matrix where each (row, col) is node. We can use DFS but need to keep "seen" set to avoid infinite cycle.
+O(n+e) time complexity.

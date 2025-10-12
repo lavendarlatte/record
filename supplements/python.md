@@ -17,5 +17,13 @@
 |Range comparison|if low <= root.val <= high:|
 |Lambda|min(a, b, key = lambda x: abs(target-x))|
 |Inner function|can access variables in outer function|
+|Square|a**2|
+|Key check| key in dic|
+|Building set from list| set(nums) is O(n)|
 
 there is recursion limit? be aware of this for dfs
+
+list is dynamic
+string is immutable so operation is O(n)
+append to list is amortized O(1)
+
