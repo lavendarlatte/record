@@ -9,7 +9,7 @@
 |Setting max value| ans = float("inf")|
 |Boolean|True/False|
 |Reverse list|list(reversed(list)) or list.reverse() (in-place)|
-|Join list|''.join(list)|
+|Join list|''.join(list) <-> list.split("/")|
 |Map|map(int, list)|
 |Set|set(string), s.add(a)|
 |Counter|collections.Counter(list)|
@@ -20,7 +20,9 @@
 |Square|a**2|
 |Key check| key in dic|
 |Building set from list| set(nums) is O(n)|
-
+|Case|string.lower() and s.upper()|
+|Split string|s.split("/"), O(N), will include empty string if char was repeated|
+|ASCII|ord('a')|
 there is recursion limit? be aware of this for dfs
 
 list is dynamic
