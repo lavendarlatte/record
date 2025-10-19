@@ -29,3 +29,12 @@ list is dynamic
 string is immutable so operation is O(n)
 append to list is amortized O(1)
 
+nonlocal parameter
+
+hashmap = defaultdict(list)
+
+directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+inner function can access outer function's variables.
+
+bool, chr, False, None
