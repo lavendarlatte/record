@@ -1,5 +1,6 @@
 ## Heaps
 
+```
 add o(log n)
 remove min O(log n)
 find min O(1) - min heap

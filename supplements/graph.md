@@ -49,3 +49,5 @@ Inorder traversal is sorted array.
 
 **Graph**: can be represented with array of edges, adjacency list/matrix, or general matrix where each (row, col) is node. We can use DFS but need to keep "seen" set to avoid infinite cycle.
 O(n+e) time and space complexity.
+
+Use BFS for shortest path problems. the first time we visit a node with BFS, we know we must have reached it with the minimum possible steps. Use for loop inside while q to traverse all nodes in same level. Do not loop deque directly because then we can't push/pop.
