@@ -40,3 +40,6 @@ inner function can access outer function's variables.
 bool, chr, False, None
 
 new_s = s[:i] + 'a' + s[i+1:] -> cannot assign at index, string is immutable.
+
+counts = Counter(nums)
+

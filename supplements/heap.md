@@ -38,3 +38,9 @@ heapify(nums) -> O(n)
 binary tree where parent node is always smaller than child node.
 can access heap[0] without pop
 max heap can be made with negative values. but be careful when using the value.
+
+don't forget heap building time complexity
+heap[1] is not second smallest!
+
+heapq.heappush(heap, (val, key))
+sorted_arr = sorted(arr, key = lambda num: abs(x - num))
