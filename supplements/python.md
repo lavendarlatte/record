@@ -43,3 +43,7 @@ new_s = s[:i] + 'a' + s[i+1:] -> cannot assign at index, string is immutable.
 
 counts = Counter(nums)
 
+count = Counter(arr)
+        ordered = sorted(counts.values(), reverse=True)
+        projects = sorted(zip(capital, profits))
+        queue = sorted(boxTypes, key=lambda x: x[1], reverse=True)

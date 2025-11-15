@@ -19,10 +19,11 @@ Redundancy in one server can be achieved by RAID.
 * RAID 6: block level striping, N+2 parity disk.
 
 Still, server can lose power so we need replication.
-* Master-Slave: multiple slaves copy one master, gives redundancy = reliability and also good for read-heavy application. Write is only done in master. When one slave is offline other slave will handle the requests. When master is offline, slave will be promoted and there will be data recovery process after.
-* Master-Master: multiple masters.
+* Master-Slave: multiple slaves copy one master, gives redundancy = reliability and also good for read-heavy application. Write is only done in master. When one slave is offline other slaves will handle the requests. When master is offline, slave will be promoted and there will be data recovery process after. There can be another load balancer here.
+* Master-Master: multiple masters. High availability, servers check heartbeats and replace all requests of others if it is down.
 
 ### Database partitioning
+Have multiple load balancers and one sends requests to server 1-10 and the other sends requests to server 11-20 based on high-level user info.
 
 ### Relational vs Non-relational DB
 * Relational: RDBMS/SQL, MySQL, Oracle database, PostgreSQL, etc. Relational databases represent and store data in tables and rows. You can perform join operations using SQL across different database tables.
@@ -34,4 +35,4 @@ MySQL is more common, but if your application requires super-low latency, your d
 ### Caching
 * HTML: saving HTML pages can help with compute time, but it requires more space and it is hard to update after.
 * MySQL query cache: if the same query comes again return results right away.
-* memcached: in-memory.
+* memcached: in-memory (RAM) key-value store. Useful for read-heavy applications.
